@@ -7,11 +7,16 @@
   <title>短链</title>
   <link rel="stylesheet" href="https://drowning1213.github.io/xuan.github.io/styles.css">
    <!--音乐播放器所用的文件-->
-<link rel="stylesheet" href="https://ly-img.github.io/xuan.github.io/dist/APlayer.min.css">
-<script src="https://ly-img.github.io/xuan.github.io/dist/APlayer.min.js"></script>
-<div id="aplayer" class="aplayer" data-autoplay="true"  data-id="2506700819" data-server="netease" data-type="playlist" data-fixed="true" data-listfolded="true" data-order="random" data-theme="#F58EA8"></div>
-<script src="https://ly-img.github.io/xuan.github.io/dist/Meting.min.js"></script>
+<!--音乐播放器所用的文件-->
+ <!-- require APlayer -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
 
+  <!-- 背景音乐代码  开始 -->
+ <!--音乐播放器-->
+   <meting-js fixed="true" autoplay="true"  list-folded="true" order="list" lrc-type="0"  auto="https://music.163.com/#/playlist?id=2506700819"></meting-js>
+  <!-- 背景音乐代码  结束 -->
 
 <body>
   <div class="card">
@@ -71,10 +76,7 @@
     </div>
   </div>
 
-  <!-- 背景音乐代码  开始 -->
- <!--音乐播放器-->
-   <meting-js fixed="true" autoplay="true"  list-folded="true" order="list" lrc-type="0"  auto="https://music.163.com/#/playlist?id=2506700819"></meting-js>
-  <!-- 背景音乐代码  结束 -->
+
 </head>         
   <script src="https://drowning1213.github.io/xuan.github.io/dist/jquery.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
   <script src="https://drowning1213.github.io/xuan.github.io/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
