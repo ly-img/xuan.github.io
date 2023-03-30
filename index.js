@@ -154,7 +154,7 @@ const config = {
     /* 查KV中的password对应的值 */
     const password_value = await LINKS.get("password");
     if (path==password_value){
-      const html= await fetch("https://xuan.baipiao1213.eu.org/baipiao1213.."+config.theme+"/index.html")
+      const html= await fetch("https://drowning1213.github.io/xuan.github.io/"+config.theme+"https://drowning1213.github.io/xuan.github.io/")
       
       return new Response(await html.text(), {
       headers: {
